@@ -100,39 +100,43 @@ A **user-user collaborative filtering** movie recommender that:
 <div align="center">
 
 <a href="https://github.com/SoubhagyaJain/CyberSentinel-AI">
-  <img height="120" src="https://github-readme-stats.vercel.app/api/pin/?username=SoubhagyaJain&repo=CyberSentinel-AI&hide_border=true" />
+  <img
+    height="120"
+    src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SoubhagyaJain&repo=CyberSentinel-AI&theme=transparent&hide_border=true&cache_seconds=86400"
+  />
 </a>
 
 <a href="https://github.com/SoubhagyaJain/Cyber-system">
-  <img height="120" src="https://github-readme-stats.vercel.app/api/pin/?username=SoubhagyaJain&repo=Cyber-system&hide_border=true" />
+  <img
+    height="120"
+    src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SoubhagyaJain&repo=Cyber-system&theme=transparent&hide_border=true&cache_seconds=86400"
+  />
 </a>
 
 <a href="https://github.com/SoubhagyaJain/Traffic-prediction">
-  <img height="120" src="https://github-readme-stats.vercel.app/api/pin/?username=SoubhagyaJain&repo=Traffic-prediction&hide_border=true" />
+  <img
+    height="120"
+    src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SoubhagyaJain&repo=Traffic-prediction&theme=transparent&hide_border=true&cache_seconds=86400"
+  />
 </a>
 
 <a href="https://github.com/SoubhagyaJain/Collabrative-Filtering-System">
-  <img height="120" src="https://github-readme-stats.vercel.app/api/pin/?username=SoubhagyaJain&repo=Collabrative-Filtering-System&hide_border=true" />
+  <img
+    height="120"
+    src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SoubhagyaJain&repo=Collabrative-Filtering-System&theme=transparent&hide_border=true&cache_seconds=86400"
+  />
 </a>
 
 </div>
-
 ---
 
 ## 📈 GitHub Proof (Stats + Activity)
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=SoubhagyaJain&show_icons=true&rank_icon=github&hide_border=true&include_all_commits=true&count_private=true" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SoubhagyaJain&layout=compact&hide_border=true" />
+<img height="170" src="https://denvercoder1-github-readme-stats.vercel.app/api?username=SoubhagyaJain&show_icons=true&rank_icon=github&hide_border=true&theme=transparent&include_all_commits=true&count_private=true&cache_seconds=86400" />
 
-<br/>
-
-<img height="190" src="https://streak-stats.demolab.com?user=SoubhagyaJain&hide_border=true" />
-
-<br/>
-
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=SoubhagyaJain&hide_border=true&area=true" />
+<img height="170" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=SoubhagyaJain&layout=compact&hide_border=true&theme=transparent&cache_seconds=86400" />
 
 </div>
 
