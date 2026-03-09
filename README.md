@@ -128,17 +128,6 @@ A **user-user collaborative filtering** movie recommender that:
 </a>
 
 </div>
----
-
-## 📈 GitHub Proof (Stats + Activity)
-
-<div align="center">
-
-<img height="170" src="https://denvercoder1-github-readme-stats.vercel.app/api?username=SoubhagyaJain&show_icons=true&rank_icon=github&hide_border=true&theme=transparent&include_all_commits=true&count_private=true&cache_seconds=86400" />
-
-<img height="170" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=SoubhagyaJain&layout=compact&hide_border=true&theme=transparent&cache_seconds=86400" />
-
-</div>
 
 ---
 
