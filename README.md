@@ -1,144 +1,148 @@
 <div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1220,35:1d4ed8,70:22c55e,100:06b6d4&height=245&section=header&text=Soubhagya%20Jain&fontSize=58&fontColor=ffffff&animation=twinkling&fontAlignY=34&desc=ML%20Engineer%20%7C%20AI%20Engineer%20%E2%80%A2%20Production%20AI%20Systems%20%E2%80%A2%20FastAPI%20%7C%20Docker%20%7C%20MLOps%20%7C%20XAI&descAlignY=60&descSize=16" />
-<h1>👋 Hey, I'm Soubhagya Jain</h1>
-<p>
-  <b>ML Engineer</b> who builds <b>production-grade AI systems</b> that work reliably in the real world.<br/>
-  I care deeply about low-latency serving, robust pipelines, clean evaluation, explainability, and systems that teams can actually maintain.
-</p>
-<p>
-  <a href="https://www.linkedin.com/in/soubhagya-jain-118205204">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://cyber-sentinel-ai-ten.vercel.app/">
-    <img src="https://img.shields.io/badge/Live%20Demo-CyberSentinel-111827?style=for-the-badge&logo=vercel&logoColor=white"/>
-  </a>
-  <a href="https://github.com/SoubhagyaJain">
-    <img src="https://img.shields.io/badge/GitHub-Follow-0b1220?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</p>
-<p>
-  <img src="https://komarev.com/ghpvc/?username=SoubhagyaJain&style=for-the-badge&color=2563eb" />
-  <img src="https://img.shields.io/github/last-commit/SoubhagyaJain/SoubhagyaJain?style=for-the-badge&color=22c55e" />
-  <img src="https://img.shields.io/badge/Open%20To-ML%20%2F%20AI%20Engineer%20Roles-06b6d4?style=for-the-badge" />
-</p>
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2800&pause=600&color=60A5FA&center=true&vCenter=true&width=1000&lines=Production+AI+isn't+just+models+%E2%86%92+it's+pipelines%2C+serving%2C+evaluation%2C+and+trust;Low-latency+APIs+%E2%80%A2+Robust+MLOps+%E2%80%A2+Explainable+outputs+%E2%80%A2+Real+dashboards;Building+systems+that+don't+break+when+reality+gets+messy." />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=280&section=header&text=Soubhagya%20Jain&fontSize=70&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=ML%20Engineer%20%7C%20AI%20Systems%20Architect%20%7C%20MLOps&descAlignY=55&descSize=20" />
 </div>
 
----
+<div align="center">
+  <a href="https://github.com/SoubhagyaJain">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=800&height=50&lines=🚀+Building+Production-Grade+AI+Systems;🧠+Specialized+in+LLMs,+FastAPI,+and+MLOps;⚡+Designing+Low-Latency+Inference+Pipelines;🛡️+Focusing+on+Reliable,+Explainable+AI" alt="Typing SVG" />
+  </a>
+</div>
 
-## What I Actually Do
-
-I design and ship **end-to-end ML systems** — from data pipelines and training to low-latency inference, monitoring, and explainability layers. My focus is on building things that are:
-
-- **Reliable** under real-world data shifts and edge cases
-- **Debuggable** and observable in production
-- **Explainable** enough for humans to trust (especially in security and high-stakes domains)
-- **Maintainable** by engineering teams, not just the person who trained the model
-
-I obsess over the gap between "model works in notebook" and "system runs reliably in production."
-
----
-
-## 🏗️ Featured Projects
-
-### 🛡️ CyberSentinel AI — Real-Time Network Intrusion Detection System
-**Production-grade ML threat detection platform** with explainable inference and live operational dashboards.
-
-**Engineering Highlights**
-- Designed a **low-latency inference path** using FastAPI with clean separation between model serving and business logic
-- Built **multi-model benchmarking + automated model promotion** logic (compare, select, promote best performer)
-- Implemented **custom XAI layer** so security analysts can understand *why* a flow was flagged
-- Full product surface: FastAPI backend + React dashboard + dedicated Streamlit SOC console
-- Dockerized end-to-end with reproducible environments
-
-This project captures how I think about ML in security: the model is only useful if analysts can trust and act on its decisions quickly.
-
-🔗 [Repo](https://github.com/SoubhagyaJain/CyberSentinel-AI) • [Live Demo](https://cyber-sentinel-ai-ten.vercel.app/)
-
----
-
-### 🧱 Cyber System — Full-Stack Cybersecurity Platform (Monorepo)
-A **multi-service cybersecurity platform** architected like a real product — not just a collection of notebooks.
-
-Includes backend services, dashboard layer, and SOC tooling. Demonstrates ability to design and structure larger systems with clear service boundaries.
-
-🔗 [Repo](https://github.com/SoubhagyaJain/Cyber-system)
-
----
-
-### 🚗 Traffic Volume Prediction Dashboard — Robust sklearn Production Pipeline
-A **production-minded ML dashboard** that predicts traffic volume while deliberately solving common real-world failure modes.
-
-**Key Engineering Decisions**
-- Built sklearn Pipelines with `OneHotEncoder(handle_unknown="ignore")` and proper preprocessing to prevent feature mismatch between train and inference
-- Trained and compared **3 models** (Linear Regression, Decision Tree, Random Forest) with live evaluation metrics (MSE, RMSE, MAE, R²)
-- Interactive visualizations for both predictions and model performance
-- Designed to fail gracefully on unseen categories and distribution shifts
-
-This project shows I care about the unglamorous but critical parts of ML engineering — making systems that don't silently break in production.
-
-🔗 [Repo](https://github.com/SoubhagyaJain/Traffic-prediction)
-
----
-
-### 🎬 Collaborative Filtering Movie Recommender
-A **user-user collaborative filtering** system that:
-- Computes similarity using cosine distance on user rating vectors
-- Generates recommendations for movies a user hasn't seen based on similar users
-- Serves results through a clean **Streamlit** interface
-
-Simple in scope, but demonstrates solid applied ML fundamentals + ability to productize a model quickly.
-
-🔗 [Repo](https://github.com/SoubhagyaJain/Collabrative-Filtering-System)
-
----
-
-## 🧰 Technical Toolkit
-
-**Languages & Core ML**  
-Python • NumPy • Pandas • scikit-learn • XGBoost
-
-**Production & Serving**  
-FastAPI • REST API design • Model serving patterns • Docker • GitHub Actions (CI/CD)
-
-**Data & Infrastructure**  
-PostgreSQL • Redis • Reproducible pipelines • Feature stores (conceptual)
-
-**Frontend & Visualization**  
-React • Streamlit • Interactive dashboards • Real-time monitoring UIs
-
-**Practices I Value**  
-- Clean pipeline design that prevents train/serve skew  
-- Evaluation frameworks beyond accuracy  
-- Explainability as a first-class requirement  
-- Containerization and environment reproducibility  
-- Observability and debugging hooks from day one
-
----
-
-## 🎯 What I'm Focused On Right Now
-
-- **Reliable agentic AI systems** — tools, memory, evaluation harnesses, and workflow orchestration that actually work in production
-- Advanced MLOps patterns: model registries, automated promotion, monitoring, and rollback strategies
-- Building evaluation frameworks that catch issues before they reach users
-- Low-latency serving architectures and the trade-offs between speed, cost, and accuracy
-
-I'm particularly interested in the **intersection of classical ML engineering discipline and modern agentic workflows**.
-
----
-
-## 🤝 Open To
-
-✅ **ML Engineer / AI Engineer** roles (New Grad, Intern, or Full-time)  
-✅ Roles where I can own end-to-end systems and push hard on **reliability, observability, and production readiness**  
-✅ Applied AI work in security, infrastructure, or recommendation domains  
-✅ Open-source collaboration on production ML tooling
-
-📩 Reach me on [LinkedIn](https://www.linkedin.com/in/soubhagya-jain-118205204) — happy to chat about systems, trade-offs, or how to make AI actually shippable.
-
----
+<br>
 
 <div align="center">
-<h3>⭐ If you find my work useful, a star on any repo genuinely helps.</h3>
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:22c55e,100:0b1220&height=130&section=footer" />
+  <a href="https://www.linkedin.com/in/soubhagya-jain-118205204"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://cyber-sentinel-ai-ten.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-CyberSentinel-111827?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://github.com/SoubhagyaJain"><img src="https://img.shields.io/badge/GitHub-0b1220?style=for-the-badge&logo=github&logoColor=white" /></a>
+</div>
+
+<div align="center">
+  <br>
+  <img src="https://komarev.com/ghpvc/?username=SoubhagyaJain&style=for-the-badge&color=00F0FF" />
+  <img src="https://img.shields.io/github/last-commit/SoubhagyaJain/SoubhagyaJain?style=for-the-badge&color=8A2BE2" />
+  <img src="https://img.shields.io/badge/Open%20To-ML%20%2F%20AI%20Roles-00F0FF?style=for-the-badge" />
+</div>
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+</div>
+
+## 👨‍💻 About Me
+I design and ship **end-to-end ML systems** — from data pipelines and training to low-latency inference, monitoring, and explainability layers. I obsess over the gap between _"model works in notebook"_ and _"system runs reliably in production."_
+
+- 🎯 **Focus**: Building reliable systems under real-world data shifts and edge cases.
+- 🔍 **Explainability**: Creating systems that humans can trust (especially in security/high-stakes domains).
+- 🛠️ **Maintainability**: Developing pipelines that engineering teams can actually maintain.
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+</div>
+
+## 🚀 Production AI Systems & Architecture
+
+<div align="center">
+  <a href="https://github.com/SoubhagyaJain/CodeHarness">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SoubhagyaJain&repo=CodeHarness&theme=radical&hide_border=true&bg_color=0D1117" width="48%" />
+  </a>
+  <a href="https://github.com/SoubhagyaJain/Vector-steel">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SoubhagyaJain&repo=Vector-steel&theme=radical&hide_border=true&bg_color=0D1117" width="48%" />
+  </a>
+  <br/>
+  <a href="https://github.com/SoubhagyaJain/Rag-chatbot">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SoubhagyaJain&repo=Rag-chatbot&theme=radical&hide_border=true&bg_color=0D1117" width="48%" />
+  </a>
+  <a href="https://github.com/SoubhagyaJain/CyberSentinel-AI">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SoubhagyaJain&repo=CyberSentinel-AI&theme=radical&hide_border=true&bg_color=0D1117" width="48%" />
+  </a>
+</div>
+
+<br>
+
+### 🔍 System Deep Dives
+
+**[⚡ CodeHarness — Autonomous AI Coding Framework](https://github.com/SoubhagyaJain/CodeHarness)**  
+> **Enterprise-Grade Agent Orchestration:** Built a strict, human-in-the-loop (HITL) framework for autonomous agents using CrewAI.
+- **Cognitive Architecture**: Separated execution logic from LLM reasoning, utilizing specialized agents (Explorer, Coder, Tester).
+- **Dual-Execution Sandbox**: Engineered isolated validation layers to test agent-generated code safely before production deployment.
+- **Real-Time Observability**: Designed a low-latency Streamlit monitoring UI to audit agent thought processes dynamically.
+
+**[🏗️ Vector Steel AI — Zero-Hallucination Estimation Pipeline](https://github.com/SoubhagyaJain/Vector-steel)**  
+> **Deterministic Multi-Agent System (MAS):** Automated structural steel estimation by completely isolating LLM vision from financial math.
+- **0% Hallucination Architecture**: LangGraph-powered orchestration uses Gemini strictly for OCR/Ingestion, while a deterministic Python engine handles all pricing logic.
+- **Adversarial Auditing**: Implemented a dedicated "Risk Agent" that audits payloads and halts the pipeline on detected anomalies.
+- **Streaming UI**: Delivered Server-Sent Events (SSE) to a React/Tailwind frontend, achieving a 91% reduction in perceived latency.
+
+**[🏢 Company Policy RAG — Verifiable Legal QA System](https://github.com/SoubhagyaJain/Rag-chatbot)**  
+> **Production-Minded RAG:** Designed for enterprise teams requiring strict legal/policy grounding and non-negotiable citation accuracy.
+- **Advanced Retrieval**: Engineered a dense + BM25 hybrid search pipeline with `bge-reranker` score filtering and query rewriting for peak context precision.
+- **Strict Faithfulness**: Enforced LlamaIndex grounding protocols ensuring 100% of factual output carries verifiable `[Source N]` tags.
+- **Continuous Evaluation**: Built an automated golden-set testing framework tracking Context Precision, Recall, and Answer Relevancy over time.
+
+**[🛡️ CyberSentinel AI — Real-Time Threat Detection Platform](https://github.com/SoubhagyaJain/CyberSentinel-AI)**  
+> **Low-Latency MLOps & Inference:** End-to-end network intrusion detection platform built for live Security Operations Centers (SOC).
+- **Model Orchestration**: Implemented automated multi-model benchmarking to continuously select and promote the best performing model.
+- **Explainable AI (XAI)**: Integrated custom interpretability layers, providing security analysts with exact feature-attribution for flagged anomalies.
+- **Production Delivery**: Fully Dockerized FastAPI backend served to a dedicated React and Streamlit console.
+
+*(Check out my repositories for more complete systems like **Cyber System**, **Traffic Volume Prediction Dashboard**, and more.)*
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+</div>
+
+## ⚡ Tech Stack & Architecture
+
+<div align="center">
+
+### 🧠 Core ML & Data Science
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+<img src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+<img src="https://img.shields.io/badge/XGBoost-100000?style=for-the-badge&logo=xgboost&logoColor=white" />
+<img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white" />
+<img src="https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white" />
+
+### ⚙️ Backend, MLOps & Infra
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=python,fastapi,docker,linux,bash,git,github,githubactions&perline=8" />
+</a>
+
+### 🗄️ Databases & Frontend
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=react,tailwind,postgres,redis,mongodb&perline=5" />
+</a>
+<br><br>
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white" />
+
+</div>
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+</div>
+
+## 📊 GitHub Analytics
+
+<div align="center">
+  <a href="https://github.com/SoubhagyaJain">
+    <img src="https://github-readme-stats.vercel.app/api?username=SoubhagyaJain&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" width="48%" />
+  </a>
+  <a href="https://github.com/SoubhagyaJain">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=SoubhagyaJain&theme=radical&hide_border=true&background=0D1117" width="48%" />
+  </a>
+</div>
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+</div>
+
+## 🎯 Current Focus & Interests
+- 🤖 **Reliable Agentic AI Systems**: Tools, memory, evaluation harnesses, and workflow orchestration.
+- 🔄 **Advanced MLOps Patterns**: Model registries, automated promotion, monitoring, and rollback strategies.
+- ⚡ **Serving Architectures**: Navigating the trade-offs between speed, cost, and accuracy.
+
+<br>
+
+<div align="center">
+  <h3>⭐ If you find my work useful, a star on any repo genuinely helps.</h3>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=130&section=footer" width="100%"/>
 </div>
