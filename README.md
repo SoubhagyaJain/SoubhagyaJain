@@ -28,7 +28,7 @@
 </div>
 
 ## 👨‍💻 About Me
-I design and ship **end-to-end ML systems** — from data pipelines and training to low-latency inference, monitoring, and explainability layers. I obsess over the gap between _"model works in notebook"_ and _"system runs reliably in production."_
+I design and ship **end-to-end ML systems** from data pipelines and training to low-latency inference, monitoring, and explainability layers. I obsess over the gap between _"model works in notebook"_ and _"system runs reliably in production."_
 
 - 🎯 **Focus**: Building reliable systems under real-world data shifts and edge cases.
 - 🔍 **Explainability**: Creating systems that humans can trust (especially in security/high-stakes domains).
